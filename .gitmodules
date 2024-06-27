@@ -1,0 +1,3 @@
+[submodule "Tractor"]
+	path = Tractor
+	url = git@github.com:Atkinson-Lab/Tractor.git
