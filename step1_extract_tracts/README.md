@@ -11,33 +11,33 @@ The dosage files will provide the number of alternate alleles corresponding to t
 #### Logic -
 At any given marker for any given sample, if for $ancN$,
 
-$a_1=
+$```a_1=
 \begin{cases} 
 0 & \text{when } AN1 \neq N \\
 1 & \text{when } AN1 = N 
-\end{cases}$
+\end{cases}```$
 
-$a_2=
-\begin{cases} 
+$```a_2=
+\begin{cases}
 0 & \text{when } AN2 \neq N \\
-1 & \text{when } AN2 = N 
-\end{cases}$
+1 & \text{when } AN2 = N
+\end{cases}```$
 
-$dosage_{ancN}=a_1*hap_{left}+a_2*hap_{right}$
+$dosage_{ancN}=a_1\*hap_{left}+a_2\*hap_{right}$
 
 #### Examples -
 
 GT=0|1, AN1=0, AN2=1
-- $dosage_{anc0}=1*0+0*1=\textbf{0}$
-- $dosage_{anc1}=0*0+1*1=\textbf{1}$
+- $dosage_{anc0}=1\*0+0\*1=\textbf{0}$
+- $dosage_{anc1}=0\*0+1\*1=\textbf{1}$
 
 GT=1|1, AN1=1, AN2=1
-- $dosage_{anc0}=0*1+0*1=\textbf{0}$
-- $dosage_{anc1}=1*1+1*1=\textbf{2}$
+- $dosage_{anc0}=0\*1+0\*1=\textbf{0}$
+- $dosage_{anc1}=1\*1+1\*1=\textbf{2}$
 
 GT=0|0, AN1=0, AN2=0
-- $dosage_{anc0}=1*0+1*0=\textbf{0}$
-- $dosage_{anc1}=0*0+0*0=\textbf{0}$
+- $dosage_{anc0}=1\*0+1\*0=\textbf{0}$
+- $dosage_{anc1}=0\*0+0\*0=\textbf{0}$
 
 ## *.hapcount.txt
 
@@ -46,17 +46,17 @@ The hapcount files track the aggregation of ancestral copies, independent of the
 #### Logic -
 At any given marker for any given sample, if for $ancN$,
 
-$a_1=
+$```a_1=
 \begin{cases} 
 0 & \text{when } AN1 \neq N \\
 1 & \text{when } AN1 = N 
-\end{cases}$
+\end{cases}```$
 
-$a_2=
-\begin{cases} 
+$```a_2=
+\begin{cases}
 0 & \text{when } AN2 \neq N \\
-1 & \text{when } AN2 = N 
-\end{cases}$
+1 & \text{when } AN2 = N
+\end{cases}```$
 
 $hapcount_{ancN}=a_1+a_2$
 
