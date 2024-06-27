@@ -8,6 +8,12 @@ Each step of this tutorial has a `README` to explain the script layout and suppl
 - [step1 README](step1_extract_tracts/README.md)
 - [step2 README](step2_run_tractor/README.md)
 
+## Startup
+
+To get started, clone the repository and pick up the Tractor submodule for the Tractor run scripts.
+
+`git clone --recurse-submodules https://github.com/hihg-um/Tractor_Tutorial.git`
+
 ## License & Citation
 
 [Tractor]((https://github.com/Atkinson-Lab/Tractor/tree/master)) is MIT-licensed software ([Tractor License](https://github.com/Atkinson-Lab/Tractor/blob/master/LICENSE)), contained in the Tractor submodule of this repository.
