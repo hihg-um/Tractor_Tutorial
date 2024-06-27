@@ -1,8 +1,8 @@
 # step0_phaseLA
 
-This is the preprocessing step prior to running Tractor phase a VCF file and run Local Ancestry Inference.
+This is the preprocessing step prior to running Tractor to phase a VCF file and run Local Ancestry Inference.
 
-There is a 4-step script set to complete this task. Including here are option (a) and option (b) to phase with `shapeit` and LA with `rfmix` or to phase with `beagle` and LA with `flare`. The output files for rfmix and flare are different, and currently are the only supported input types for the first step of Tractor. Both will work, but Flare seems to do a better job handling the computation of larger-scale data.
+There is a 4-step script set to complete this task. Included here are option (a) and option (b) to phase with `shapeit` and LA with `rfmix` or to phase with `beagle` and LA with `flare`. The output files for rfmix and flare are different, and currently are the only supported input types for the first step of Tractor. Both will work, but Flare seems to do a better job handling the computation of larger-scale data.
 
 ## Running step0
 
