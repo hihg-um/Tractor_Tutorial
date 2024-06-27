@@ -1,6 +1,6 @@
 # Tractor Tutorial
 
-This Tractor Tutorial is meant to provide a simple series of scripts to complete the steps laid out in the official [Tractorial Tutorial](https://github.com/Atkinson-Lab/Tractor-tutorial) using its sample data.
+This Tractor Tutorial is meant to provide a simple series of scripts to complete the steps laid out in the official [Tractor Tutorial](https://github.com/Atkinson-Lab/Tractor-tutorial) using its sample data.
 
 Each step of this tutorial has a `README` to explain the script layout and supplement the detailed explanations from the official tutorial and [paper](https://www.nature.com/articles/s41588-020-00766-y).
 
