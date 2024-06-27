@@ -1,0 +1,9 @@
+# data directories
+*/admixed_cohort
+*/references
+*/phenotype
+*/phaseLA
+*/tracts
+*/results
+
+*.DS_Store
